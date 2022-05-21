@@ -1,3 +1,9 @@
+/*WAP to print following using default arguments
+repchar() // prints 45 times asterisks (*)
+repchar ('=) // prints 45 times (=)
+repchar('+',30) // prints 30 times (+) */
+
+         
 #include<iostream>
 #include<iomanip>
 using namespace std;

@@ -30,7 +30,11 @@ void AddMatrics(int r=2, int c=2)
     {
         for(j=0; j<c; j++)
         {
-             cout<<a[i][j]    +   b[i][j];
+             cout<<a[i][j] + b[i][j]<<"  ";
+             if(j==r-1)
+             {
+                 cout<<endl;
+             }
         }     
     }  
 }

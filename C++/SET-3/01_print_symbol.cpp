@@ -16,7 +16,9 @@ void repchar( char c=' ', int n=45)
 int main()
 {
     repchar('*');
+    cout<<endl;
     repchar('=');
+    cout<<endl;
     repchar('+');
     return 0;
 }

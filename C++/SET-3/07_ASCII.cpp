@@ -6,9 +6,6 @@ float. */
 using namespace std;
 void ascii(int a,char c)
 {
-    /*char c;
-    cout<<"Enter the character"<<endl;
-    cin>>c;*/
     cout<<"ascii + integer ="<< c+a <<endl;
 }
 void ascii(float b,char c)

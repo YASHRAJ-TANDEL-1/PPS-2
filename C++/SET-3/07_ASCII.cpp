@@ -12,8 +12,6 @@ void ascii(float b,char c)
 {
     cout<<"ascii+float="<<c+b;
 }
-
-
 int main()
 {
     char c;

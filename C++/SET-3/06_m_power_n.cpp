@@ -28,7 +28,7 @@ int main()
     cin>>ans;
     if(ans=='T')
     {
-        cout<<"Enter the value of power=";
+        cout<<"Enter the value of power(n)=";
         cin>>b;
         cout<<power(a,b)<<"-"<<"This is the answer";
     }

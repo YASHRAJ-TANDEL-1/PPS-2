@@ -47,6 +47,7 @@ class player
             } 
             void showdata()
             {
+               avg=runs/test;
                 cout<<setw(15)<<name<<setw(15)<<age<<setw(15)<<run<<setw(15)<<HI<<setw(15)<<LO<<setw(25)<<test<<setw(15)<<avg<<endl; 
             } 
             ~player()

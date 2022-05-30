@@ -50,6 +50,7 @@ int main()
     {
          p[i].getdata();
     }
+    cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
     cout<<setw(15)<<"NAME"<<setw(15)<<"AGE"<<setw(15)<<"RUN"<<setw(15)<<"HIGEST SCORE"<<setw(15)<<"LOWEST SCORE"<<setw(25)<<"NUMBER OF TEST MATCH"<<setw(15)<<"AVERAGE"<<endl;
     for(int i=0; i<n; i++)
     { 

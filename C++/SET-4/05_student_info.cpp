@@ -63,7 +63,8 @@ int main()
                 c[i].s[j].getdata();
             }  
         }
-        cout<<"STUDENT ID"<<endl;
+        cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
+        cout<<"!!!!STUDENT ID!!!!"<<endl;
         for ( i = 0; i < n; i++)
         {
             for ( j = 0; j < a[i]; j++)

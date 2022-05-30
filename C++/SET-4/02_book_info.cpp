@@ -16,7 +16,7 @@ class book
     public:
             void readdata()
             {
-                cout<<"INFORMATION OF BOOKS"
+                cout<<"~~~!!!INFORMATION OF BOOKS!!!~~~"
                 cout<<"Enter the code of book"<<" ";
                 cin>>code;
                 cout<<"Enter the cost of book"<<" ";
@@ -40,6 +40,7 @@ int main()
     {
          b[i].readdata();
     }
+ cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
     cout<<setw(15)<<"CODE"<<setw(15)<<"COST"<<setw(15)<<"QUANTITY"<<setw(15)<<"TOTAL AMOUNT"<<endl;
      for(int i=0; i<n; i++)
     {

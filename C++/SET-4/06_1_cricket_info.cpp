@@ -20,7 +20,7 @@ class player
     public:
             player()
             {
-                cout<<"Constructer is called"<<endl;
+                cout<<"Constructer is called."<<endl;
                 age=0;
                 run=0;
                 HI=0;
@@ -30,7 +30,7 @@ class player
             }
             void getdata()
             {
-                cout<<"DETAILS OF PLAYER"<<endl;
+                cout<<"~~~# DETAILS OF PLAYER #~~~"<<endl;
                 cout<<"Enter the Name of player"<<endl;
                 cin.ignore();
                 getline(cin,name);
@@ -52,7 +52,7 @@ class player
             } 
             ~player()
             {
-                cout<<"Destructor is called"<<endl;
+                cout<<"Destructor is called."<<endl;
             }         
 };
 int main()
@@ -65,6 +65,7 @@ int main()
     {
          p[i].getdata();
     }
+   cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
     cout<<setw(15)<<"NAME"<<setw(15)<<"AGE"<<setw(15)<<"RUN"<<setw(15)<<"HIGEST SCORE"<<setw(15)<<"LOWEST SCORE"<<setw(25)<<"NUMBER OF TEST MATCH"<<setw(15)<<"AVERAGE"<<endl;
     for(int i=0; i<n; i++)
     { 

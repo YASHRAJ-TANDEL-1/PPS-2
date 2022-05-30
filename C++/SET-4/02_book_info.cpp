@@ -16,7 +16,7 @@ class book
     public:
             void readdata()
             {
-                cout<<"~~~!!!INFORMATION OF BOOKS!!!~~~";
+                cout<<"~~~!!!INFORMATION OF BOOKS!!!~~~"<<endl;
                 cout<<"Enter the code of book"<<" ";
                 cin>>code;
                 cout<<"Enter the cost of book"<<" ";

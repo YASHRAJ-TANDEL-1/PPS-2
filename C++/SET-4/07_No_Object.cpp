@@ -19,6 +19,7 @@ int main()
     cout<<"Enter the number of data you want"<<endl;
     cin>>n;
     object c[n];
+    cout<<endl;
     cout<<"Total object created is "<<endl;
     cout<<object::count;
     return 0;

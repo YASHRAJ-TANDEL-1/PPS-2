@@ -52,5 +52,4 @@ int main()
          b[i].displaydata();
     }
     return 0;
-
 }

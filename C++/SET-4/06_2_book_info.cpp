@@ -17,7 +17,7 @@ class book
     public:
             book()
             {
-                cout<<"Constructer is called"<<endl;
+                cout<<"Constructer is called."<<endl;
                 code=0;
                 cost=0;
                 total_price=0;
@@ -25,7 +25,7 @@ class book
             }    
             void readdata()
             {
-                cout<<"INFORMATION OF BOOKS"<<endl;;
+                cout<<"### INFORMATION OF BOOKS ###"<<endl;;
                 cout<<"Enter the code of book"<<" ";
                 cin>>code;
                 cout<<"Enter the cost of book"<<" ";
@@ -40,7 +40,7 @@ class book
             }   
             ~book()
             {
-                cout<<"Destructor is called"<<endl;
+                cout<<"Destructor is called."<<endl;
             }          
 };
 int main()
@@ -53,11 +53,11 @@ int main()
     {
          b[i].readdata();
     }
+ cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
     cout<<setw(15)<<"CODE"<<setw(15)<<"COST"<<setw(15)<<"QUANTITY"<<setw(15)<<"TOTAL AMOUNT"<<endl;
      for(int i=0; i<n; i++)
     {
          b[i].displaydata();
     }
     return 0;
-
 }

@@ -18,7 +18,7 @@ class time
     public:
             time()
             {
-                cout<<"Constructer is called"<<endl;
+                cout<<"Constructer is called."<<endl;
                 hour=0;
                 min=0;
                 sec=0;
@@ -41,7 +41,7 @@ class time
             }  
             ~time()
             {
-                cout<<"Destructor is called"<<endl;
+                cout<<"Destructor is called."<<endl;
             }     
 };
 int main()
@@ -54,6 +54,7 @@ int main()
     {
         t[i].getdata();
     }
+    cout<<"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"<<endl;
     for(int i=0; i<n; i++)
     {
         t[i].convert();

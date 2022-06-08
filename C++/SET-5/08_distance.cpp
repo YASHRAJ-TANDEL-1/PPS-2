@@ -50,6 +50,10 @@ class distance
                     foot++;
                 }
             }
+            ~distance()
+            {
+                cout<<"Destructor is called."<<endl;
+            }    
 };
 int main()
 {

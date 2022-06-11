@@ -55,6 +55,10 @@ class complexn
                             real=x.real / y.real;
                             img =x.img / y.img;   
                     }
+            ~complexn()
+            {
+                cout<<"Destructor is called."<<endl;
+            }        
 };
 int main()
 {

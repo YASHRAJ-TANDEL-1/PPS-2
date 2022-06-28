@@ -42,13 +42,13 @@ class kilo
                 kg = x.gettons() * 1000;
                 gm = x.gettons() * 907200;
             }
-            void readdata()
-            {
-                cout<<"Enter the value of kilogram "<<endl;
-                cin>>kg;
-                cout<<"Enter the value of grams "<<endl;
-                cin>>gm;
-            }
+            // void readdata()
+            // {
+            // cout<<"Enter the value of kilogram "<<endl;
+            // cin>>kg;
+            // cout<<"Enter the value of grams "<<endl;
+            // cin>>gm;
+            // }
             // int getkg()
             // {
             //     return kg;

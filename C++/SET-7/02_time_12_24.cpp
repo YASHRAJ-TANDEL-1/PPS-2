@@ -11,7 +11,7 @@ class time12
     private:
             int hh,mm,ss;
     public:
-            time()
+            time12()
             {
                 //Constructer is called.
                 hh=0;

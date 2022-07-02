@@ -76,7 +76,7 @@ class matrix
                     {
                         for(int k=0 ;k<3 ;k++)
                         {
-                            b.m[i][j] = m[i][j] - a.m[i][j];
+                            b.m[i][j] = m[i][j] * a.m[i][j];
                         }
                         cout<<endl;
                     } 

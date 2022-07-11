@@ -1,7 +1,7 @@
 /* Define Inheritance. Explain public, private and protected
    inheritance with example. */
 
-/* INHERITANCE :- It is the process of creating new classes ,called dericed classes ,from base classes. */
+/* INHERITANCE :- It is the process of creating new classes ,called derived classes ,from base classes. */
 
 #include<iostream>
 #include<iomanip>

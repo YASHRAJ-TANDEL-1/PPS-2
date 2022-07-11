@@ -62,7 +62,7 @@ class books : public publication
 class tape : public books
 {
     private:
-            float min;
+            float min,hr;
     public:
             tape()
             {
@@ -73,12 +73,13 @@ class tape : public books
                 books :: read();
                 cout<<"min :"<<" ";
                 cin>>min;
+                hr=(min/60);
             }
             void show()
             {
                 cout<<"--------------------------------"<<endl;
                 books :: show();
-                cout<<"TIME SPEND TO READ BOOK :"<<min<<endl;
+                cout<<"TIME SPEND TO READ BOOK :"<<hr<<"hr."<<endl;
                 cout<<"--------------------------------"<<endl;
             }
             ~tape()

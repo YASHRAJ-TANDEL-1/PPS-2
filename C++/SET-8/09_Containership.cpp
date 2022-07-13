@@ -41,7 +41,7 @@ class engineering
                 cout<<"NAME OF UNIVERSITY :"<<uni<<endl;
             }
 };
-class CE : public engineering
+class CE 
 {
     private:
             engineering y1;
@@ -61,7 +61,7 @@ class CE : public engineering
                 cout<<"--------------------------------------"<<endl;
             }
 };
-class IT : public engineering
+class IT 
 {
     private: 
             engineering y1;

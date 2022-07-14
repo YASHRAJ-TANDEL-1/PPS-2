@@ -6,7 +6,7 @@ of Cylinder is pie*(radius * radius)*height. */
 
 #include<iostream>
 #include<iomanip>
-int pi=3.14;
+float pi=3.14;
 using namespace std;
 class circle 
 {

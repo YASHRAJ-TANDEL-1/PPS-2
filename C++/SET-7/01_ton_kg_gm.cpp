@@ -11,56 +11,56 @@ class tons
 {
     double ton;
     public:
-    tons()
-    {
-        ton=0;
-    }
-    friend class kilo;
-    void get()
-    {
-        cout<<"Enter the value in tons:";
-        cin>>ton;
-    }
-    void display()
-    {
-        cout<<"-------------------------------"<<endl;
-        cout<<"Values in tons:"<<ton<<endl;
-        cout<<"-------------------------------"<<endl;
-    }
+        tons()
+        {
+            ton=0;
+        }
+        friend class kilo;
+        void get()
+        {
+            cout<<"Enter the value in tons:";
+            cin>>ton;
+        }
+        void display()
+        {
+            cout<<"-------------------------------"<<endl;
+            cout<<"Values in tons:"<<ton<<endl;
+            cout<<"-------------------------------"<<endl;
+        }
 };
 class kilo
 {
     double kg, gms;
     public:
-    kilo()
-    {
-        kg=0;
-        gms=0;
-    }
+        kilo()
+        {
+            kg=0;
+            gms=0;
+        }
     friend class tons;
-    kilo(tons a)
-    {
-        kg=a.ton*100;
-        gms=a.ton*1000;
-    }
-    void get()
-    {
-        cout<<"Enter the values in KG:";
-        cin>>kg;
-        cout<<"Enter the values in GMS:";
-        cin>>gms;
-    }
-    void display()
-    {
-        cout<<"-------------------------------"<<endl;
-        cout<<"VALUES IN KILOGRAM :"<<kg<<endl<<"VALUES IN GRAM :"<<gms<<endl;
-        cout<<"-------------------------------"<<endl;
-    }
-    void conversion(tons t)
-    {
-        t.ton=( (kg/100) + (gms/1000) ) / 2;
-        t.display();
-    }
+        kilo(tons a)
+        {
+            kg=a.ton*100;
+            gms=a.ton*1000;
+        }
+        void get()
+        {
+            cout<<"Enter the values in KG:";
+            cin>>kg;
+            cout<<"Enter the values in GMS:";
+            cin>>gms;
+        }
+        void display()
+        {
+            cout<<"-------------------------------"<<endl;
+            cout<<"VALUES IN KILOGRAM :"<<kg<<endl<<"VALUES IN GRAM :"<<gms<<endl;
+            cout<<"-------------------------------"<<endl;
+        }
+        void conversion(tons t)
+        {
+            t.ton=( (kg/100) + (gms/1000) ) / 2;
+            t.display();
+        }
 };
 int main()
 {
